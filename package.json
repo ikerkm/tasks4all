@@ -1,0 +1,27 @@
+{
+  "name": "task4all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error no test specified\\\" && exit 1",
+    "start": "export NODE_ENV=production || NODE_ENV=production || SET \"NODE_ENV=production\" && node server/",
+    "dev": "export NODE_ENV=development || NODE_ENV=development || SET \"NODE_ENV=development\" && nodemon server/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikerkm/tasks4all.git"
+  },
+  "author": "iker Kuadra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ikerkm/tasks4all/issues"
+  },
+  "homepage": "https://github.com/ikerkm/tasks4all#readme"
+}
